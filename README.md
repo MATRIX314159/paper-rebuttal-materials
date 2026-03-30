@@ -1,12 +1,35 @@
 **Table 1. Power Comparison under two covariance matrices.**
 
-| $\delta$ | $\text{Power}^{\mathrm{est}}$ | $\text{Power}^{\mathrm{true}}$ |
-| :---: | :---: | :---: |
-| 0.8 | 0.5450 | 0.5150 |
-| 0.9 | 0.6300 | 0.6300 |
-| 1 | 0.7150 | 0.7150 |
-| 1.1 | 0.7750 | 0.7950 |
-| 1.2 | 0.8400 | 0.8450 |
+<table>
+  <thead>
+    <tr>
+      <th align="center">$\delta$</th>
+      <th align="center">$\text{Power}^{\mathrm{est}}$</th>
+      <th align="center">$\text{Power}^{\mathrm{true}}$</th>
+      <th align="center">$\Delta_1^{\mathrm{est}}$</th>
+      <th align="center">$\Delta_1^{\mathrm{true}}$</th>
+      <th align="center">$\Delta_2^{\mathrm{est}}$</th>
+      <th align="center">$\Delta_2^{\mathrm{true}}$</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">0.8</td><td align="center">0.5450</td><td align="center">0.5150</td><td align="center">0.0016</td><td align="center">0.0016</td><td align="center">0.0005</td><td align="center">0.0005</td>
+    </tr>
+    <tr>
+      <td align="center">0.9</td><td align="center">0.6300</td><td align="center">0.6300</td><td align="center">0.0020</td><td align="center">0.0020</td><td align="center">0.0007</td><td align="center">0.0007</td>
+    </tr>
+    <tr>
+      <td align="center">1</td><td align="center">0.7150</td><td align="center">0.7150</td><td align="center">0.0026</td><td align="center">0.0025</td><td align="center">0.0009</td><td align="center">0.0009</td>
+    </tr>
+    <tr>
+      <td align="center">1.1</td><td align="center">0.7750</td><td align="center">0.7950</td><td align="center">0.0032</td><td align="center">0.0031</td><td align="center">0.0012</td><td align="center">0.0012</td>
+    </tr>
+    <tr>
+      <td align="center">1.2</td><td align="center">0.8400</td><td align="center">0.8450</td><td align="center">0.0040</td><td align="center">0.0038</td><td align="center">0.0016</td><td align="center">0.0015</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -56,9 +79,10 @@
     <tr><td align="center">0.9</td><td align="center">0.935</td><td align="center">0.575</td></tr>
   </tbody>
 </table>
+
 <br>
 
-**Table 3. Power comparsion of MOD and MMD under Experiment III.**
+**Table 3. Power comparison of MOD and MMD for a modified version of Experiment III, in which only $5\%$ of the observations in $Y$ are drawn from a shifted alternative distribution.**
 
 <table>
   <thead>
@@ -96,7 +120,6 @@
     <tr><td align="center">1.5</td><td align="center">0.91</td><td align="center">0.25</td></tr>
   </tbody>
 </table>
-<br>
 
 **Figure C.1. Histograms of for $T_i$ and $T_i^2$ for one replication.**
 
